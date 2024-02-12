@@ -6,7 +6,7 @@
 
 
 
-> ####🌱 Interests in blockchain, microcontrolers, cybersecurity, decentralized renewable energy production.
+> #### 🌱 Interests in blockchain, microcontrolers, cybersecurity, decentralized renewable energy production.
 
 
 
