@@ -1,5 +1,8 @@
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMatos182&countColor=%2337d67a)
 
 # 👋 Welcome
+
+
 
 Currently on an exciting journey of learning and exploration in the realm of technology. 
 
