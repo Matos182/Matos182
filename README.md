@@ -15,7 +15,7 @@
 
 ### 🔧 Focus
 
-Energy and power systems engineer working on MV/LV power systems and the OT networks that run them — with a growing focus on industrial cybersecurity (IEC 61850, NIS2) and offensive security.
+Energy and power systems engineer working on MV/LV grids and the OT networks that run them — with a growing focus on industrial cybersecurity (IEC 61850, NIS2) and offensive security.
 
 Outside work, I build small AI-driven tools and automation for personal and open-source projects, bridging engineering rigor with modern AI tooling.
 
