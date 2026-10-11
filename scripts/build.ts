@@ -12,7 +12,7 @@ const get = async (url: string) => {
 
 const COLORS: Record<string, string> = {
   TypeScript: "#3178c6", JavaScript: "#f1e05a", Python: "#3572A5", Go: "#00ADD8",
-  Dart: "#00B4AB", C: "#555555", "C++": "#f34b7d", Lua: "#000080", Shell: "#89e051",
+  Dart: "#00B4AB", C: "#a8b9cc", "C++": "#f34b7d", Lua: "#6b7cff", Shell: "#89e051",
   HTML: "#e34c26", CSS: "#563d7c", Svelte: "#ff3e00", Rust: "#dea584", CMake: "#DA3434",
   Assembly: "#6E4C13", Dockerfile: "#384d54", Other: "#8b949e",
 };
@@ -30,31 +30,29 @@ for (const r of repos) {
 }
 
 const sum = Object.values(share).reduce((a, b) => a + b, 0);
-let slices = Object.entries(share).map(([name, v]) => ({ name, pct: v / sum })).sort((a, b) => b.pct - a.pct);
-const small = slices.filter((s) => s.pct < 0.03);
-slices = slices.filter((s) => s.pct >= 0.03);
-if (small.length) slices.push({ name: "Other", pct: small.reduce((a, s) => a + s.pct, 0) });
+const ranked = Object.entries(share).map(([name, v]) => ({ name, pct: v / sum })).sort((a, b) => b.pct - a.pct);
+const slices = ranked.slice(0, 8);
+if (ranked.length > 8) slices.push({ name: "Other", pct: ranked.slice(8).reduce((a, s) => a + s.pct, 0) });
 
-// Donut: one arc path per slice, so every SVG renderer draws it.
-const R = 60, CX = 90, CY = 90;
+// Thin ring: one arc path per slice with a small gap, so it reads clean at any size.
+const R = 64, CX = 84, CY = 92, GAP = 0.012;
 const point = (t: number) => [CX + R * Math.sin(2 * Math.PI * t), CY - R * Math.cos(2 * Math.PI * t)].map((n) => n.toFixed(2)).join(" ");
 let start = 0;
 const arcs = slices.map((s) => {
-  const end = Math.min(start + s.pct, 0.9999);
-  const arc = `<path d="M ${point(start)} A ${R} ${R} 0 ${s.pct > 0.5 ? 1 : 0} 1 ${point(end)}" fill="none" stroke="${COLORS[s.name] ?? COLORS.Other}" stroke-width="26"/>`;
+  const a = start + GAP / 2, b = start + s.pct - GAP / 2;
   start += s.pct;
-  return arc;
+  return `<path d="M ${point(a)} A ${R} ${R} 0 ${b - a > 0.5 ? 1 : 0} 1 ${point(b)}" fill="none" stroke="${COLORS[s.name] ?? COLORS.Other}" stroke-width="7" stroke-linecap="round"/>`;
 }).join("\n  ");
 const legend = slices.map((s, i) =>
-  `<g transform="translate(200 ${34 + i * 22})"><circle r="6" cx="6" cy="-4" fill="${COLORS[s.name] ?? COLORS.Other}"/><text x="20" y="0">${s.name}</text><text x="190" y="0" text-anchor="end" class="muted">${(s.pct * 100).toFixed(1)}%</text></g>`
+  `<g transform="translate(196 ${36 + i * 19})"><circle r="3.5" cx="4" cy="-4" fill="${COLORS[s.name] ?? COLORS.Other}"/><text x="16" y="0">${s.name}</text><text x="196" y="0" text-anchor="end" class="muted">${(s.pct * 100).toFixed(1)}%</text></g>`
 ).join("\n  ");
-const height = Math.max(190, 34 + slices.length * 22);
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="420" height="${height}" viewBox="0 0 420 ${height}" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">
-  <style>text{fill:#24292f}.muted{fill:#57606a}.big{font-size:22px;font-weight:600}@media (prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#8b949e}}</style>
+const height = Math.max(168, 36 + slices.length * 19);
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="${height}" viewBox="0 0 400 ${height}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+  <style>text{fill:#1f2328}.muted{fill:#656d76}.big{font-size:28px;font-weight:300}.cap{font-size:9px;letter-spacing:2px}@media (prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#7d8590}}</style>
   ${arcs}
-  <text x="90" y="92" text-anchor="middle" class="big">${repos.length}</text>
-  <text x="90" y="110" text-anchor="middle" class="muted">repos</text>
+  <text x="${CX}" y="${CY + 6}" text-anchor="middle" class="big">${repos.length}</text>
+  <text x="${CX}" y="${CY + 22}" text-anchor="middle" class="muted cap">REPOS</text>
   ${legend}
 </svg>
 `;

@@ -1,25 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="254" viewBox="0 0 420 254" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13">
-  <style>text{fill:#24292f}.muted{fill:#57606a}.big{font-size:22px;font-weight:600}@media (prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#8b949e}}</style>
-  <path d="M 90.00 30.00 A 60 60 0 0 1 145.63 67.51" fill="none" stroke="#3178c6" stroke-width="26"/>
-  <path d="M 145.63 67.51 A 60 60 0 0 1 142.93 118.26" fill="none" stroke="#f1e05a" stroke-width="26"/>
-  <path d="M 142.93 118.26 A 60 60 0 0 1 109.82 146.63" fill="none" stroke="#3572A5" stroke-width="26"/>
-  <path d="M 109.82 146.63 A 60 60 0 0 1 68.40 145.98" fill="none" stroke="#00B4AB" stroke-width="26"/>
-  <path d="M 68.40 145.98 A 60 60 0 0 1 41.56 125.41" fill="none" stroke="#f34b7d" stroke-width="26"/>
-  <path d="M 41.56 125.41 A 60 60 0 0 1 30.49 97.65" fill="none" stroke="#00ADD8" stroke-width="26"/>
-  <path d="M 30.49 97.65 A 60 60 0 0 1 33.44 69.99" fill="none" stroke="#000080" stroke-width="26"/>
-  <path d="M 33.44 69.99 A 60 60 0 0 1 45.13 50.16" fill="none" stroke="#555555" stroke-width="26"/>
-  <path d="M 45.13 50.16 A 60 60 0 0 1 60.67 37.65" fill="none" stroke="#89e051" stroke-width="26"/>
-  <path d="M 60.67 37.65 A 60 60 0 0 1 89.96 30.00" fill="none" stroke="#8b949e" stroke-width="26"/>
-  <text x="90" y="92" text-anchor="middle" class="big">9</text>
-  <text x="90" y="110" text-anchor="middle" class="muted">repos</text>
-  <g transform="translate(200 34)"><circle r="6" cx="6" cy="-4" fill="#3178c6"/><text x="20" y="0">TypeScript</text><text x="190" y="0" text-anchor="end" class="muted">18.9%</text></g>
-  <g transform="translate(200 56)"><circle r="6" cx="6" cy="-4" fill="#f1e05a"/><text x="20" y="0">JavaScript</text><text x="190" y="0" text-anchor="end" class="muted">13.9%</text></g>
-  <g transform="translate(200 78)"><circle r="6" cx="6" cy="-4" fill="#3572A5"/><text x="20" y="0">Python</text><text x="190" y="0" text-anchor="end" class="muted">11.8%</text></g>
-  <g transform="translate(200 100)"><circle r="6" cx="6" cy="-4" fill="#00B4AB"/><text x="20" y="0">Dart</text><text x="190" y="0" text-anchor="end" class="muted">11.2%</text></g>
-  <g transform="translate(200 122)"><circle r="6" cx="6" cy="-4" fill="#f34b7d"/><text x="20" y="0">C++</text><text x="190" y="0" text-anchor="end" class="muted">9.1%</text></g>
-  <g transform="translate(200 144)"><circle r="6" cx="6" cy="-4" fill="#00ADD8"/><text x="20" y="0">Go</text><text x="190" y="0" text-anchor="end" class="muted">8.0%</text></g>
-  <g transform="translate(200 166)"><circle r="6" cx="6" cy="-4" fill="#000080"/><text x="20" y="0">Lua</text><text x="190" y="0" text-anchor="end" class="muted">7.4%</text></g>
-  <g transform="translate(200 188)"><circle r="6" cx="6" cy="-4" fill="#555555"/><text x="20" y="0">C</text><text x="190" y="0" text-anchor="end" class="muted">6.1%</text></g>
-  <g transform="translate(200 210)"><circle r="6" cx="6" cy="-4" fill="#89e051"/><text x="20" y="0">Shell</text><text x="190" y="0" text-anchor="end" class="muted">5.3%</text></g>
-  <g transform="translate(200 232)"><circle r="6" cx="6" cy="-4" fill="#8b949e"/><text x="20" y="0">Other</text><text x="190" y="0" text-anchor="end" class="muted">8.1%</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="207" viewBox="0 0 400 207" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+  <style>text{fill:#1f2328}.muted{fill:#656d76}.big{font-size:28px;font-weight:300}.cap{font-size:9px;letter-spacing:2px}@media (prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#7d8590}}</style>
+  <path d="M 86.41 28.05 A 64 64 0 0 1 142.39 65.79" fill="none" stroke="#3178c6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 144.20 70.26 A 64 64 0 0 1 141.55 119.99" fill="none" stroke="#f1e05a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 139.28 124.25 A 64 64 0 0 1 107.40 151.57" fill="none" stroke="#3572A5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 102.85 153.16 A 64 64 0 0 1 63.23 152.54" fill="none" stroke="#00B4AB" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 58.73 150.80 A 64 64 0 0 1 33.80 131.69" fill="none" stroke="#f34b7d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 30.95 127.80 A 64 64 0 0 1 20.87 102.55" fill="none" stroke="#00ADD8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 20.26 97.76 A 64 64 0 0 1 22.90 72.94" fill="none" stroke="#6b7cff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 24.51 68.40 A 64 64 0 0 1 34.58 51.34" fill="none" stroke="#a8b9cc" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 37.78 47.73 A 64 64 0 0 1 81.59 28.05" fill="none" stroke="#8b949e" stroke-width="7" stroke-linecap="round"/>
+  <text x="84" y="98" text-anchor="middle" class="big">9</text>
+  <text x="84" y="114" text-anchor="middle" class="muted cap">REPOS</text>
+  <g transform="translate(196 36)"><circle r="3.5" cx="4" cy="-4" fill="#3178c6"/><text x="16" y="0">TypeScript</text><text x="196" y="0" text-anchor="end" class="muted">18.9%</text></g>
+  <g transform="translate(196 55)"><circle r="3.5" cx="4" cy="-4" fill="#f1e05a"/><text x="16" y="0">JavaScript</text><text x="196" y="0" text-anchor="end" class="muted">13.9%</text></g>
+  <g transform="translate(196 74)"><circle r="3.5" cx="4" cy="-4" fill="#3572A5"/><text x="16" y="0">Python</text><text x="196" y="0" text-anchor="end" class="muted">11.8%</text></g>
+  <g transform="translate(196 93)"><circle r="3.5" cx="4" cy="-4" fill="#00B4AB"/><text x="16" y="0">Dart</text><text x="196" y="0" text-anchor="end" class="muted">11.2%</text></g>
+  <g transform="translate(196 112)"><circle r="3.5" cx="4" cy="-4" fill="#f34b7d"/><text x="16" y="0">C++</text><text x="196" y="0" text-anchor="end" class="muted">9.1%</text></g>
+  <g transform="translate(196 131)"><circle r="3.5" cx="4" cy="-4" fill="#00ADD8"/><text x="16" y="0">Go</text><text x="196" y="0" text-anchor="end" class="muted">8.0%</text></g>
+  <g transform="translate(196 150)"><circle r="3.5" cx="4" cy="-4" fill="#6b7cff"/><text x="16" y="0">Lua</text><text x="196" y="0" text-anchor="end" class="muted">7.4%</text></g>
+  <g transform="translate(196 169)"><circle r="3.5" cx="4" cy="-4" fill="#a8b9cc"/><text x="16" y="0">C</text><text x="196" y="0" text-anchor="end" class="muted">6.1%</text></g>
+  <g transform="translate(196 188)"><circle r="3.5" cx="4" cy="-4" fill="#8b949e"/><text x="16" y="0">Other</text><text x="196" y="0" text-anchor="end" class="muted">13.4%</text></g>
 </svg>
