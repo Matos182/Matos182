@@ -23,10 +23,12 @@ Outside work, I build small AI-driven tools and automation for personal and open
 
 | Domain | Stack |
 |---|---|
-| ⚡ Power Systems | MV/LV distribution, grid operations |
-| 🛡️ OT / ICS Security | IEC 61850, NIS2 alignment, segmentation |
-| 🎯 Offensive Security | CCNA, CCP · pentesting, hardening |
-| 🤖 AI & Automation | agentic tooling, systems integration |
+| ⚡ Power Systems | MV/LV networks, renewable generation |
+| 🛡️ OT / ICS Security | IEC 61850 (GOOSE), NIS2 alignment, network segmentation |
+| 🌐 Networking | Cisco CCNA · routing, switching, VLANs |
+| 🎯 Offensive Security | pentesting, network hardening |
+| 🤖 AI & Automation | agentic tooling, local-first AI, TypeScript |
+| 🎓 Training | certified trainer (CCP) |
 
 ### 🌱 Currently exploring
 
