@@ -37,8 +37,6 @@ Decentralized renewable energy · GOOSE traffic monitoring · local-first AI sys
 <!-- REPOS:START -->
 <p align="center"><img src="assets/languages.svg" alt="Languages across my public repos" /></p>
 
-<p align="center"><sub>4 own · 5 forks · every repo weighs the same</sub></p>
-
 | Repo | About | Main |
 |---|---|---|
 | 🍴 [jev-router](https://github.com/Matos182/jev-router) | Pass-through model router for Claude Code and Codex CLI that picks a mo… | JavaScript |

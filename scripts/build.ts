@@ -68,8 +68,6 @@ const own = repos.filter((r: any) => !r.fork).length;
 const table = `<!-- REPOS:START -->
 <p align="center"><img src="assets/languages.svg" alt="Languages across my public repos" /></p>
 
-<p align="center"><sub>${own} own · ${repos.length - own} forks · every repo weighs the same</sub></p>
-
 | Repo | About | Main |
 |---|---|---|
 ${rows}
