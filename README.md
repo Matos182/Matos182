@@ -9,13 +9,13 @@
 ```
 
 <h1 align="center">⚡ Fábio Matos</h1>
-<p align="center"><em>Energy &amp; Power Systems Engineer · OT Security 🛡️ · Applied AI Systems 🤖</em></p>
+<p align="center"><em>Energy &amp; Renewable Power Systems Engineer · OT Security 🛡️ · Applied AI Systems 🤖</em></p>
 
 ---
 
 ### 🔧 Focus
 
-Energy and power systems engineer working on MV/LV grids and the OT networks that run them — with a growing focus on industrial cybersecurity (IEC 61850, NIS2) and offensive security.
+Renewable energy and power systems engineer working on MV/LV grids and the OT networks that run them — with a growing focus on industrial cybersecurity (IEC 61850, NIS2) and offensive security.
 
 Outside work, I build small AI-driven tools and automation for personal and open-source projects, bridging engineering rigor with modern AI tooling.
 
