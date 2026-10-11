@@ -1,37 +1,37 @@
-<p align="center" ><img align="center" src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMatos182&countColor=%2337d67a" alt="Matos182" /></p>
+<p align="center"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMatos182&countColor=%2337d67a" alt="Matos182" /></p>
 
-# 👋 Welcome
+```
+      ___
+     /   \
+    | ⚡ |    grid up · signal clean
+     \___/
+    ──┴──
+```
 
+<h1 align="center">⚡ Fábio Matos</h1>
+<p align="center"><em>Renewable Energy Engineer · OT Security 🛡️ · Applied AI Systems 🤖</em></p>
 
+---
 
-Currently on an exciting journey of learning and exploration in the realm of technology. 
+### 🔧 Focus
 
-## 🌱 Interests
+Electrotechnical engineer working on power systems (MV/LV) and the OT networks that run them — with a growing focus on industrial cybersecurity (IEC 61850, NIS2) and offensive security.
 
--   **Blockchain**
--   **Microcontrollers**
--   **Cybersecurity**
--   **Decentralized Renewable Energy Production**
+Outside work, I build small AI-driven tools and automation for personal and open-source projects, bridging engineering rigor with modern AI tooling.
 
-I'm eager to dive deeper into these areas and contribute meaningfully to the tech community.
+### 🧩 Skills
 
-## 🤝 About Me
+| Domain | Stack |
+|---|---|
+| ⚡ Power Systems | MV/LV distribution, grid operations |
+| 🛡️ OT / ICS Security | IEC 61850, NIS2 alignment, segmentation |
+| 🎯 Offensive Security | CCNA, CCP · pentesting, hardening |
+| 🤖 AI & Automation | agentic tooling, systems integration |
 
-I'm a curious soul with a penchant for all things tech-related. Whether it's tinkering with Linux network apps, diving into the intricacies of Android open-source ROMs, or experimenting with Blockchain systems.
+### 🌱 Currently exploring
 
+Decentralized renewable energy · GOOSE traffic monitoring · local-first AI systems
 
-
-<!---
-- 👋 Hi, I’m @Matos182
-- 👀 I’m interested in MicroPython, Linux network apps, Android open source ROMs, Blockchain systems.
-- 🌱 I’m currently learning everything I can...
-- 💞️ I’m looking to collaborate on something, but I can't help in nothing... yet...
-- 📫 You can reach me in fmlmatos@gmail.com
---->
-
-<!---
-Matos182/Matos182 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-
+<!--
+📫 fmlmatos@gmail.com
+-->
