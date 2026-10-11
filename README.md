@@ -9,7 +9,7 @@
 ```
 
 <h1 align="center">⚡ Fábio Matos</h1>
-<p align="center"><em>Energy &amp; Renewable Power Systems Engineer · OT Security 🛡️ · Applied AI Systems 🤖</em></p>
+<p align="center"><em>Renewable Energy &amp; Power Systems Engineer · OT Security 🛡️ · Applied AI Systems 🤖</em></p>
 
 ---
 
