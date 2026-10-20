@@ -41,6 +41,7 @@ Decentralized renewable energy · GOOSE traffic monitoring · local-first AI sys
 
 | Repo | About | Main |
 |---|---|---|
+| 📦 [joraa-mcp](https://github.com/Matos182/joraa-mcp) | Servidor MCP para dados públicos dos Açores: contratação pública e Jorn… | TypeScript |
 | 🍴 [jev-router](https://github.com/Matos182/jev-router) | Pass-through model router for Claude Code and Codex CLI that picks a mo… | JavaScript |
 | 📦 [goose-watch](https://github.com/Matos182/goose-watch) | Passive IEC 61850 GOOSE monitor: deterministic rules decide, a local AI… | TypeScript |
 | 🍴 [fabric](https://github.com/Matos182/fabric) | fabric is an open-source framework for augmenting humans using AI. It p… | Go |
