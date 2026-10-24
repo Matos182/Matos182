@@ -2,13 +2,13 @@
   <style>text{fill:#1f2328}.muted{fill:#656d76}.big{font-size:28px;font-weight:300}.cap{font-size:9px;letter-spacing:2px}@media (prefers-color-scheme:dark){text{fill:#e6edf3}.muted{fill:#7d8590}}</style>
   <path d="M 86.41 28.05 A 64 64 0 0 1 147.75 97.61" fill="none" stroke="#3178c6" stroke-width="7" stroke-linecap="round"/>
   <path d="M 147.15 102.39 A 64 64 0 0 1 125.03 141.12" fill="none" stroke="#f1e05a" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 121.21 144.07 A 64 64 0 0 1 85.69 155.98" fill="none" stroke="#3572A5" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 80.87 155.92 A 64 64 0 0 1 47.45 144.54" fill="none" stroke="#00B4AB" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 43.60 141.63 A 64 64 0 0 1 26.34 119.77" fill="none" stroke="#f34b7d" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 24.41 115.34 A 64 64 0 0 1 20.00 91.72" fill="none" stroke="#00ADD8" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 20.20 86.90 A 64 64 0 0 1 25.70 65.59" fill="none" stroke="#6b7cff" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 27.86 61.27 A 64 64 0 0 1 38.18 47.31" fill="none" stroke="#a8b9cc" stroke-width="7" stroke-linecap="round"/>
-  <path d="M 41.68 43.99 A 64 64 0 0 1 81.59 28.05" fill="none" stroke="#8b949e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 121.22 144.07 A 64 64 0 0 1 85.70 155.98" fill="none" stroke="#3572A5" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 80.88 155.92 A 64 64 0 0 1 47.46 144.55" fill="none" stroke="#00B4AB" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 43.61 141.64 A 64 64 0 0 1 26.34 119.78" fill="none" stroke="#f34b7d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 24.42 115.36 A 64 64 0 0 1 20.00 91.74" fill="none" stroke="#00ADD8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 20.20 86.92 A 64 64 0 0 1 25.70 65.60" fill="none" stroke="#6b7cff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 27.85 61.29 A 64 64 0 0 1 38.17 47.33" fill="none" stroke="#a8b9cc" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 41.67 44.00 A 64 64 0 0 1 81.59 28.05" fill="none" stroke="#8b949e" stroke-width="7" stroke-linecap="round"/>
   <text x="84" y="98" text-anchor="middle" class="big">10</text>
   <text x="84" y="114" text-anchor="middle" class="muted cap">REPOS</text>
   <g transform="translate(196 36)"><circle r="3.5" cx="4" cy="-4" fill="#3178c6"/><text x="16" y="0">TypeScript</text><text x="196" y="0" text-anchor="end" class="muted">27.0%</text></g>
